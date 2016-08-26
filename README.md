@@ -1,2 +1,0 @@
-# tomasBaseLib
-AndroidBaseLibrary

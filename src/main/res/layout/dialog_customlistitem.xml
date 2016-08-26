@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="start"
+    android:descendantFocusability="blocksDescendants"
+    android:gravity="center_vertical"
+    android:paddingBottom="6dp"
+    android:paddingTop="6dp">
+
+    <com.rey.material.widget.RadioButton
+        android:id="@+id/customButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:buttonTint="#ff2847"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="24dp"/>
+
+    <TextView
+        android:id="@+id/customTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="4dp"
+        android:layout_marginTop="4dp"
+        android:layout_toEndOf="@+id/customButton"
+        android:layout_toRightOf="@+id/customButton"
+        android:textColor="#333333"
+        android:textSize="16dp" />
+
+</RelativeLayout>

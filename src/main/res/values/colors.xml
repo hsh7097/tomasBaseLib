@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--color-->
+    <color name="white">#FFFFFF</color>
+    <color name="yellow">#FFFF00</color>
+    <color name="fuchsia">#FF00FF</color>
+    <color name="red">#FF0000</color>
+    <color name="silver">#C0C0C0</color>
+    <color name="gray">#808080</color>
+    <color name="olive">#808000</color>
+    <color name="purple">#800080</color>
+    <color name="maroon">#800000</color>
+    <color name="aqua">#00FFFF</color>
+    <color name="lime">#00FF00</color>
+    <color name="teal">#008080</color>
+    <color name="green">#008000</color>
+    <color name="blue">#0000FF</color>
+    <color name="navy">#000080</color>
+    <color name="black">#000000</color>
+
+    <!--color_black-->
+    <color name="color_black_100">#FF000000</color>
+    <color name="color_black_95">#F2000000</color>
+    <color name="color_black_90">#E6000000</color>
+    <color name="color_black_85">#D9000000</color>
+    <color name="color_black_80">#CC000000</color>
+    <color name="color_black_75">#BF000000</color>
+    <color name="color_black_70">#B3000000</color>
+    <color name="color_black_65">#A6000000</color>
+    <color name="color_black_60">#99000000</color>
+    <color name="color_black_55">#8C000000</color>
+    <color name="color_black_50">#80000000</color>
+    <color name="color_black_45">#73000000</color>
+    <color name="color_black_40">#66000000</color>
+    <color name="color_black_35">#59000000</color>
+    <color name="color_black_30">#4D000000</color>
+    <color name="color_black_25">#40000000</color>
+    <color name="color_black_20">#33000000</color>
+    <color name="color_black_15">#26000000</color>
+    <color name="color_black_10">#1A000000</color>
+
+
+</resources>

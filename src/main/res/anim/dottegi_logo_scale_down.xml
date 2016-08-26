@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+	android:fillEnabled="true"
+	android:fillAfter="true"
+	android:interpolator="@android:anim/accelerate_decelerate_interpolator"
+	>
+    <scale
+		android:fromXScale="90.0" android:toXScale="1.0"
+		android:fromYScale="90.0" android:toYScale="1.0"
+		android:pivotX="50%" android:pivotY="50%"
+		android:startOffset="0" 					
+		android:duration="500"/>
+
+</set>
+<!--
+- startOffset : 시작 딜레이
+
+- 점점 빠르게 : accelerate_interpolator
+- 점점 느리게 : decelerate_interpolator
+- 위 둘을 동시에 : accelerate_decelerate_interpolator
+- 시작위치에서 조금 뒤로 당겼다 이동 : anticipate_interpolator
+- 도착위치를 조금 지나쳤다가 도착위치로 이동 : overshoot_interpolator
+- 위 둘을 동시에 : anticipate_overshoot_interpolator
+- 도착위치에서 튕김 : bounce_interpolator
+ -->
